@@ -25,5 +25,4 @@ result = statement
 print('god' not in statement)
 
 print(id(statement), id(result))
-
 print(id(statement) is id(result))
