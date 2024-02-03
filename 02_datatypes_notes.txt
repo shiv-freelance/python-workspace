@@ -1,0 +1,41 @@
+
+#int 
+count = 10
+print(count)
+
+amount = 1,50,00,00,000
+print(amount)
+
+amount = 1_50_00_00_000
+print(amount, type(amount))
+
+
+result = 22/7
+print(result, int(result))
+
+output = "3434"
+print(output, type(output))
+
+output = int(output)
+print(output, type(output))
+
+output = '0930xa9034'
+print(int(output))
+
+
+Operators
+
+arithmetic operators: addition(+), subtract(-), multiply(*), division(/), floor division(//)
+assignment operators: =, +=, -=, *=, /=
+comparision operators: ==, <=, >=, <, >
+membership operator: in, not in
+idenity operator: is, is not
+
+
+
+loops:
+for loop
+range
+while loop
+continue
+break
