@@ -21,21 +21,3 @@ print(output, type(output))
 
 output = '0930xa9034'
 print(int(output))
-
-
-Operators
-
-arithmetic operators: addition(+), subtract(-), multiply(*), division(/), floor division(//)
-assignment operators: =, +=, -=, *=, /=
-comparision operators: ==, <=, >=, <, >
-membership operator: in, not in
-idenity operator: is, is not
-
-
-
-loops:
-for loop
-range
-while loop
-continue
-break

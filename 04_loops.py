@@ -12,33 +12,23 @@
 
 # print('hello')
 
-# range()
+# range(start, end-1, step)
 
-
-# input()
-# print()
-# type()
-# int()
-# float()
-# bool()
-# str()
-# id()
-# isintance()
 
 
 # operators:
 # +, //, /, in, not in, is, is not
 
 
-# input()
-# print()
-# type()
-# id()
-# isinstance(35, int)
-# int()
-# float()
-# str()
-# bool()
+# input() takes user input
+# print() prints on console
+# type() returns the type of a variable
+# id() address of a variable
+# isinstance(35, int) checks datatype is matching and return True - matches, else False
+# int() to convert to int
+# float() to convert to float
+# str() string conversion
+# bool() boolean conversion
 
 
 # operators
@@ -53,33 +43,39 @@
 
 # condition statements: if, else, elif
 
-# len()
+condition = False
+
+if condition:
+    print('Evaluated to True')
+else:
+    print('Evaluated to False')
+
+# len() to get the length
 
 # for loop
 
 # import keyword
-
-# print(len(keyword.kwlist))
-
-
-# for value in range(2, 10, 2):
-#     print(value)
+# print(len(keyword.kwlist)) getting all reserved keywords.
 
 
-# for char in "Akshara":
-#     print(char)
+for value in range(2, 10, 2):
+    print(value)
+
+
+for char in "Akshara":
+    print(char)
 
 # while 
 num = 10
 start = 0
 
-# while start < num:
-#     print(start)
-#     # start = start + 1
+while start < num:
+    print(start)
+    start = start + 1
 
-# while True:
+# while True: # this is True always, will be infinite loop
 #     print(83)
 
-# while False:
+# while False: # never get's executed.
 #     print('test')
 

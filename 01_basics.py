@@ -25,6 +25,23 @@ print(keyword.kwlist)
  'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 
 
+
+# boolean: True, False
+# Undefined: None
+# condition: and, or, if, elif, else
+# method: def, pass, return, async
+# loop: for, while, with, continuem break
+# exception: try, except, else, finally, raise
+# import: from, import
+# membership: in, not, in
+# identity: is, is not
+# aliasing: as
+# anynomous: lambda
+# delete: del
+# variable: global, nonlocal
+
+
+
 # int variable (Whole number)
 age:int = 23
 print(age)
@@ -37,25 +54,15 @@ print(salary, type(salary))
 
 # String
 string = 'Akshara'
-
-
 print(string, type(string))
 print(string.upper())
 
 
 # Conditional statements
-
 name = "Subhash"
 age = 26 if name == "Subhsh" else 40, 'test', 'test2'
 
 print(age, type(age))
-
-
-# Datatypes:
-#         numbers: int, float
-#         boolean: True, False
-#         strings: '', "", """triple quote"""
-#         complex: a+bj; a-real and b-img
 
 
 
@@ -70,7 +77,4 @@ if age >= 18:
     print('you are eligible for vote')
 else:
     print('not eligible please come once you are 18')
-
-
-
 
