@@ -28,7 +28,7 @@
 
 # position vs indexing
 
-nums = [1, 2, 3, 4, 5, True, 'name', 3.4, 2, 1, 2]
+# nums = [1, 2, 3, 4, 5, True, 'name', 3.4, 2, 1, 2]
 
 # print(nums[6])
 # print(nums[-2])
@@ -71,11 +71,11 @@ nums = [1, 2, 3, 4, 5, True, 'name', 3.4, 2, 1, 2]
 # print(fruits)
 
 
-nums1 = [1, 2, 3, 4, 5]
-nums2 = [6, 7, 8, 9, 10]
+# nums1 = [1, 2, 3, 4, 5]
+# nums2 = [6, 7, 8, 9, 10]
 
-nums2.extend(nums1)
-print(nums2)
+# nums2.extend(nums1)
+# print(nums2)
 
 # result = nums2+nums1
 
@@ -89,15 +89,26 @@ print(nums2)
 # nums2.sort(reverse=True)
 # print(nums2)
 
-fruits = ['apple', 'banana', 'strawberry', 'mango', 'orange']
+# fruits = ['apple', 'banana', 'strawberry', 'mango', 'orange']
+# fruits.sort(key=lambda x: x[1])
 
-fruits.sort(key=lambda x: x[1])
-
-print(fruits)
-
+# print(fruits)
 
 
+# list comprehensions
+#  where you are storing the data based on a conditional check, if condition get's sataisfied then it stores the data into list.
 
+# syntax: [item for item in iterable if conditional_check]
 
+nums: list[int] = [1, 2,3,4, 5,6,7,8]
+# even_list = []
 
+# for num in nums:
+#     if num % 2 == 0:
+#         even_list.append(num)
+
+# print(even_list)
+
+even_nums = [num for num in nums if num % 2 == 0]
+print(even_nums)
 
