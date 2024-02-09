@@ -29,7 +29,7 @@ print(keyword.kwlist)
 # boolean: True, False
 # Undefined: None
 # condition: and, or, if, elif, else
-# method: def, pass, return, async
+# method/function: def, pass, return
 # loop: for, while, with, continuem break
 # exception: try, except, else, finally, raise
 # import: from, import
@@ -39,6 +39,7 @@ print(keyword.kwlist)
 # anynomous: lambda
 # delete: del
 # variable: global, nonlocal
+# asynchronous: async, await
 
 
 
