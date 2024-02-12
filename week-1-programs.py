@@ -67,3 +67,28 @@ while num > 0:
     num = num //10
 
 print(int(result))
+
+
+
+# sort a list.
+
+nums = [20, 30, 50, 10, 90]
+
+# write a program to sort my list
+
+# 1.approch
+# nums.sort(reverse=False)
+
+# 2nd approach
+# result = sorted(nums, reverse=True)
+
+
+# 3rd approach 
+# for i in range(len(nums)):
+#     for j in range(i+1, len(nums)):
+#           first = nums[i]
+#           second = nums[j]
+#         if first > second:
+#             nums[i], nums[j] = nums[j], nums[i]
+
+print(nums)
