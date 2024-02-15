@@ -40,6 +40,7 @@ print(keyword.kwlist)
 # delete: del
 # variable: global, nonlocal
 # asynchronous: async, await
+# class: class
 
 
 
