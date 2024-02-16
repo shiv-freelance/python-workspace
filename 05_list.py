@@ -106,7 +106,6 @@ nums: list[int] = [1, 2,3,4, 5,6,7,8]
 # for num in nums:
 #     if num % 2 == 0:
 #         even_list.append(num)
-
 # print(even_list)
 
 even_nums = [num for num in nums if num % 2 == 0]

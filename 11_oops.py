@@ -1,4 +1,15 @@
 
+#oops:
+# ----
+#     1. class
+#     2. object
+#     3. inheritance
+#     4. encapusulation
+#     5. polymorphism
+#     6. Abstraction
+
+
+
 # nums = [1, 2, 3, 4].append
 
 # blueprint student.
@@ -24,7 +35,7 @@ del student1
 # student3 = Student(3, 'Aravind', 'shiv@gmail.com')
 # student4 = Student(4, 'Ganesh', 'shiv@gmail.com')
 
-# object.property
+# object_ref.property
 print(student1.id, student1.name, student1.email)
 
 #object.method_name()
