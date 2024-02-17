@@ -30,3 +30,33 @@ while True:
 
 print(nums)
 print(sum(nums))
+
+# celsius to fahrenheit
+C = 90
+formula = f"{C}*(9/5)+32"
+
+print(eval(formula))
+
+
+# get second highest num in a list.
+def get_highest_num(nums: list[int]):
+    largest = nums[0]
+    second_largest = nums[1]
+    for i in range(2, len(nums)):
+        if largest < nums[i]:
+            largest, second_largest = nums[i], largest
+        elif second_largest < largest and nums[i] > second_largest:
+            second_largest = nums[i]
+
+    return second_largest, largest
+
+
+nums = [11, 2, 3, 9, 0, 7]
+second_high, highest = get_highest_num(nums)
+print("second highest: ", second_high)
+print('highest in list is: ', highest)
+
+# 2nd approach
+# nums.sort()
+# print(nums[-2]) # 2nd max
+# print(nums[-1]) # highest
