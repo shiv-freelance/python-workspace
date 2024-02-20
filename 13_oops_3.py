@@ -22,9 +22,32 @@ class Person:
         # instance variables.
         self.name = name
         self.age = age
-        print(Person.__job)
+        # print(Person.__job)
+
+
 
 p = Person('shiv', 27)
+print(p.country) # Bharat
+p.country = "America" # country(instance)is getting created.
+print(p.country) # America
+print(Person.country) # Bharat
+
+Person.country = "America" # modifying the public variable.
+print(p.country) # America
+print(Person.country) # Bharat
+
+
+
+
+
+
+
+
+
+
+
+
+
 # p2 = Person('Ganesh', 26)
 
 # print(p.name, p.age, p.state, p.country)
