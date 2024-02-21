@@ -55,3 +55,36 @@ t1.dummy()
 
 # print(len('test'))
 # print(sum([1,2,3,4,-1]))
+
+
+
+class Test:
+    counter = 0
+
+    def __init__(self) -> None:
+        self.counter = 1
+        self.fruit = 'apple'
+
+    def func1(self):
+        print(self.fruit)
+    
+
+t1 = Test()
+# t1.func1()
+print(t1.counter) # 1
+
+t2 = Test()
+print(t2.counter) # 1
+
+t3 = Test()
+print(t3.counter) # 1
+
+
+print(Test.counter) # 0
+
+
+
+
+
+
+
