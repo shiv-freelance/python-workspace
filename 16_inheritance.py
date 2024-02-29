@@ -142,4 +142,4 @@ class Employee(Person):
 
 print(Employee.__mro__)
 
-
+# single level - one step 
