@@ -1,12 +1,12 @@
 
 #oops:
 # ----
-#     1. class
-#     2. object
-#     3. inheritance
-#     4. encapusulation
-#     5. polymorphism
-#     6. Abstraction
+#     1. class - blueprint
+#     2. object - physical (no-class no-obj) - constructor
+#     3. inheritance - super class - child class
+#     4. encapusulation - setter and getter
+#     5. polymorphism - overloading, overriding
+#     6. Abstraction - hiding
 
 
 
