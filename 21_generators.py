@@ -53,10 +53,13 @@ def new_generator():
 
 gen = new_generator()
 
-print(next(gen))
-print(next(gen))
-
-print(list(gen))
+try:
+    print(next(gen))
+    print(next(gen))
+    print(list(gen))
+    print(next(gen))
+except StopIteration:
+    print('you reached end of the generator')
 
 # for i in gen:
 #     print(i)
