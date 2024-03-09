@@ -51,9 +51,24 @@
 # s = Solution()
 # s.get_vals
 
-import math
+# import math
 
-def isPerfectSquare(num: int) -> bool:
-    return True if math.sqrt(num) % 1 == 0 else False
+# def isPerfectSquare(num: int) -> bool:
+#     return True if math.sqrt(num) % 1 == 0 else False
 
-print(isPerfectSquare(16))
+# print(isPerfectSquare(16))
+
+from mysql.connector import connect as mysql
+
+conn = mysql(host='localhost', user='root', password='Aug2023', port=3306, database = 'oracle')
+
+print('connected to DB!')
+
+cursor = conn.cursor()
+
+cursor.execute('Drop table employee  ')
+conn.commit()
+
+result = cursor.fetchall()
+print(result)
+print('query executed perfectly!!!')
