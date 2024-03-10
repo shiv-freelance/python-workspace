@@ -1,4 +1,3 @@
-
 # a: int = int(input('first value: '))
 # b: int = int(input('second value: '))
 
@@ -58,16 +57,14 @@ num = 12345
 # print(result)
 
 
-
 result = ""
 
 while num > 0:
     result = result + str(num % 10)
     # result += num % 10
-    num = num //10
+    num = num // 10
 
 print(int(result))
-
 
 
 # sort a list.
@@ -83,7 +80,7 @@ nums = [20, 30, 50, 10, 90]
 # result = sorted(nums, reverse=True)
 
 
-# 3rd approach 
+# 3rd approach
 # for i in range(len(nums)):
 #     for j in range(i+1, len(nums)):
 #           first = nums[i]

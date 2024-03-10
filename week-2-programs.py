@@ -1,4 +1,3 @@
-
 # stmt = "Hare Krishna Hare rama"
 
 # reverse a string
@@ -23,7 +22,7 @@
 # get sum of previous, stop when enter 0.
 nums = []
 while True:
-    num = int(input('enter the numebr'))
+    num = int(input("enter the numebr"))
     if num == 0:
         break
     nums.append(num)
@@ -54,7 +53,7 @@ def get_highest_num(nums: list[int]):
 nums = [11, 2, 3, 9, 0, 7]
 second_high, highest = get_highest_num(nums)
 print("second highest: ", second_high)
-print('highest in list is: ', highest)
+print("highest in list is: ", highest)
 
 # 2nd approach
 # nums.sort()

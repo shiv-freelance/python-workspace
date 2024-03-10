@@ -1,5 +1,3 @@
-
-
 # import pickle
 
 # from oops.person import Person
@@ -44,7 +42,7 @@
 
 #         print(Solution.lst1)
 
-# #  
+# #
 # list1 = ListNode{val: 1, next: ListNode{val: 2, next: ListNode{val: 4, next: None}}}
 # list2 = ListNode{val: 1, next: ListNode{val: 3, next: ListNode{val: 4, next: None}}}
 
@@ -57,18 +55,3 @@
 #     return True if math.sqrt(num) % 1 == 0 else False
 
 # print(isPerfectSquare(16))
-
-from mysql.connector import connect as mysql
-
-conn = mysql(host='localhost', user='root', password='Aug2023', port=3306, database = 'oracle')
-
-print('connected to DB!')
-
-cursor = conn.cursor()
-
-cursor.execute('Drop table employee  ')
-conn.commit()
-
-result = cursor.fetchall()
-print(result)
-print('query executed perfectly!!!')

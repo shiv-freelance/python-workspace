@@ -1,5 +1,3 @@
-
-
 # int, float, string, boolean, complex
 # list, tuple, set, frozenset, dict
 
@@ -7,7 +5,7 @@
 # num = int(input('number: '))
 
 # positive or negative
-# if num < 0: 
+# if num < 0:
 #     print('negative number')
 # else:print('positive number')
 
@@ -65,7 +63,6 @@ result = []
 # print(x_y_z)
 
 
-
 # numbers, enter 0 stop, i should be taking all the previous nums. i should get sum/avg
 
 # for i in range(5) # will not work
@@ -88,15 +85,14 @@ nums: list[int] = [15, 4, 2, 6, 2, 6, 9, 0, 11]
 # 1st approach
 # print(max(nums))
 
+
 def get_max_value(nums) -> int:
     max_value = nums[0]
-    for i in range(1,len(nums)):
-        if max_value < nums[i]: # 6 < 9; max_value = 6
-            max_value = nums[i]   # max_value = 9
+    for i in range(1, len(nums)):
+        if max_value < nums[i]:  # 6 < 9; max_value = 6
+            max_value = nums[i]  # max_value = 9
 
     return max_value
 
-print(get_max_value(nums))   
 
-
-
+print(get_max_value(nums))
