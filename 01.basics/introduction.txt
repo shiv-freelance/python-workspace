@@ -1,0 +1,59 @@
+
+What is Python:
+---------------
+Python is a high level, multi-purpose programming language.
+
+programming lang: 
+
+2 types:
+    1. low level
+    2. high level
+
+compiler or interpreter:
+-----------------------
+it is resp to convert low to high 
+syntax correct or not
+to give you the result/output
+
+
+files: txt, csv, xlsx, xls, pdf
+
+uses:
+-----
+1. web devl - djago
+2. data anal
+3. scripting
+4. iot
+5. machine learning
+6. AI
+7. desktop 
+8. de - pyspark
+9. data scientist etc.
+
+compiler --> before exectuing a it, it will generate a byte code (machine code) -->
+interpreter --> line by line exection.
+
+strong: features
+----------------
+1. easy to understand and write
+2. easy syntax
+3. interpreter
+4. platform(software+hardware) independent.
+
+
+
+
+week: limitations/ drawbacks
+---------------------------
+1. performance will be low.
+2. mobile applications not good.
+
+
+# person 
+# ------
+# name, age, student/employeed, salary
+
+name = Mohan
+age = 22
+isStudent = not
+salary = 29999.99
