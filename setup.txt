@@ -8,13 +8,8 @@
 5. My Theme (Optional) - https://marketplace.visualstudio.com/items?itemName=viktorqvarfordt.vscode-pitch-black-theme
 
 ## Installing Optional Dependencies
+terminal:
+    pip install ipython mypy black ==> to install the Dependencies
+    python -V ==> to find the installed Version
 
-```bash/terminal
-    pip install ipython mypy black
-```
-
-## Check Python Version
-
-```bash
-    python -V
-```
+Visualizer: https://pythontutor.com/visualize.html#mode=edit
