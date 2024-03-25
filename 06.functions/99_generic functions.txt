@@ -1,0 +1,14 @@
+
+input() ==> takes input from the user (input statement)
+print() ==> prints on console (output statement)
+type() ==> returns the datatype of a variable
+id() ==> memory address of a variable
+isinstance(35, int) ==> checks datatype is matching or not (return True - matches, else False)
+
+
+# Type conversion functions.
+int() to convert to int
+float() to convert to float
+str() string conversion
+bool() boolean conversion
+complex() complex datatype conversion

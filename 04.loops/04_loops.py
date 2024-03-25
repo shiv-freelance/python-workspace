@@ -12,18 +12,6 @@
 # operators:
 # +, //, /, in, not in, is, is not
 
-
-# input() takes user input
-# print() prints on console
-# type() returns the type of a variable
-# id() address of a variable
-# isinstance(35, int) checks datatype is matching and return True - matches, else False
-# int() to convert to int
-# float() to convert to float
-# str() string conversion
-# bool() boolean conversion
-
-
 # operators
 # arithemetic operators: add, subtract, mutliply, division, floor division
 # comparision operators: <, >, <=,>=, ==

@@ -3,9 +3,7 @@ What is Python:
 ---------------
 Python is a high level, multi-purpose programming language.
 
-programming lang: 
-
-2 types:
+2 types of programming languages:
     1. low level
     2. high level
 
@@ -15,8 +13,6 @@ it is resp to convert low to high
 syntax correct or not
 to give you the result/output
 
-
-files: txt, csv, xlsx, xls, pdf
 
 uses:
 -----
@@ -30,6 +26,7 @@ uses:
 8. de - pyspark
 9. data scientist etc.
 
+
 compiler --> before exectuing a it, it will generate a byte code (machine code) -->
 interpreter --> line by line exection.
 
@@ -41,9 +38,7 @@ strong: features
 4. platform(software+hardware) independent.
 
 
-
-
-week: limitations/ drawbacks
+weekness: limitations/ drawbacks
 ---------------------------
 1. performance will be low.
 2. mobile applications not good.
@@ -57,3 +52,12 @@ name = Mohan
 age = 22
 isStudent = not
 salary = 29999.99
+
+
+# file types
+    1. txt --> text files
+    2. csv --> comma separted values
+    3. xlsx, xls -> excel files
+    4. pdf --> portal document format
+    5. py/pyc --> python files.
+    

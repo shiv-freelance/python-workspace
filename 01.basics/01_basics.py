@@ -43,26 +43,6 @@ print(salary, type(salary))
 
 
 # String
-string = "Akshara"
+string = "Hari Ram"
 print(string, type(string))
-print(string.upper())
 
-
-# Conditional statements
-name = "Subhash"
-age = 26 if name == "Subhsh" else 40, "test", "test2"
-
-print(age, type(age))
-
-
-############ sample program ###############
-
-name: str = input("please enter your name: ")
-age: str = input(f"{name} enter your age: ")
-
-age: int = int(age)
-
-if age >= 18:
-    print("you are eligible for vote")
-else:
-    print("not eligible please come once you are 18")
