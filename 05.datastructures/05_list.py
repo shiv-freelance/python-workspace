@@ -1,6 +1,5 @@
-# print(help(dict))
-
 # datastructures:
+#   organizing the data in a better way. In python, we 5 different datastructures. They are,
 #     1. list
 #     2. tuple
 #     3. set
@@ -8,15 +7,9 @@
 #     5. dict
 
 
-# datastructures:
-# ---------------
-#     organizing the data in better way.
-
-
 # list
-
-# 1. store: indexing
-# 2. both homo, hetero
+# 1. stores the values based on indexing
+# 2. accepts both homogeneous and hetero
 # 3. mutable
 # 4. duplicates allowed.
 

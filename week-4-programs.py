@@ -25,10 +25,34 @@ def pivotInteger(n: int) -> int:
     return -1
 
 pivotInteger(8)
-############### (or) ##############
+
+# 2nd approach.
 from math import sqrt
 
 def pivotInteger(n: int):
     result = sqrt(n*(n+1)/2)
     return -1 if result % 1 != 0 else int(result)
+
+###################################
+words = ['geeks', 'for', 'geeks']
+# output = 'geeks': 2, 'for’: 1
+
+# 1st approach
+from collections import Counter
+print(Counter(words)) # Counter({'geeks': 2, 'for': 1})
+
+# 2nd approach
+unique_wrds = set(words)
+result = {word:words.count(word) for word in words}
+print(result) # {'geeks': 2, 'for': 1}
+
+# 3rd approach
+output= {}
+for word in words:
+    if word not in output:
+        output[word] = 1
+    else:
+        output[word]=output[word]+1
+print(output) # {'geeks': 2, 'for': 1}
+
 
