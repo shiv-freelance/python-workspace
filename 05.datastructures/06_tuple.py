@@ -14,12 +14,6 @@ print(t1[3])
 even_nums = (num for num in t1 if num % 2 == 0)
 print(tuple(even_nums), type(tuple(even_nums)))
 
-# function vs method:  DRY don't repeat yourself
-
-# lst = [1,23,4]
-# lst.sort()
-# print(lst)
-
-# print(len(lst))
-# print(max(lst))
-# print(min(lst))
+# print(len(t1))
+# print(max(t2))
+# print(min(t2))

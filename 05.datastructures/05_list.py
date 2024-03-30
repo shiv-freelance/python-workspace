@@ -13,36 +13,43 @@
 # 3. mutable
 # 4. duplicates allowed.
 
+# create a list
+nums = []
+nums = list()
+print(type(nums))
 
-# nums = []
-# nums = list()
-# print(type(nums))
 
 # position vs indexing
+nums = [1, 2, 3, 4, 5, True, 'name', 3.4, 2, 1, 2]
 
-# nums = [1, 2, 3, 4, 5, True, 'name', 3.4, 2, 1, 2]
+print(nums[6])
+print(nums[-2])
 
-# print(nums[6])
-# print(nums[-2])
 
-# nums.append(False)
-# print(nums)
-# # nums.insert(0)
-# print(nums)
+# adding 
+nums.append(False) # adds the element at last
+print(nums)
+nums.insert(0, 100) # inserts a value 100 at 0th index
+print(nums)
 
-# count = nums.count(10)
-# print("2 present in list in {count} times".format(count=count))
 
-# print(nums[0])
+count = nums.count(10)
+print("2 present in list in {count} times".format(count=count))
 
-# del nums[0]
-# index = nums.index(2)
-# del nums[index]
-# print(nums)
+print(nums[0])
 
-# print(len(nums))
+del nums[0]
+index = nums.index(2)
+del nums[index]
+print(nums)
 
-# fruits = ['apple', 'banana', 'mango', 'orange']
+print(len(nums))
+
+fruits = ['apple', 'banana', 'mango', 'orange']
+
+lst = [1,23,4]
+lst.sort()
+print(lst)
 
 # new_fruits = fruits
 # new_fruits.append('strawberry')
@@ -88,17 +95,18 @@
 
 
 # list comprehensions
-#  where you are storing the data based on a conditional check, if condition get's sataisfied then it stores the data into list.
+#  where you are storing the data based on a conditional check, if condition get's sataisfied 
+# then it stores the data into list.
 
 # syntax: [item for item in iterable if conditional_check]
 
 nums: list[int] = [1, 2, 3, 4, 5, 6, 7, 8]
-# even_list = []
+even_list = []
 
-# for num in nums:
-#     if num % 2 == 0:
-#         even_list.append(num)
-# print(even_list)
+for num in nums:
+    if num % 2 == 0:
+        even_list.append(num)
+print(even_list)
 
 even_nums = [num for num in nums if num % 2 == 0]
 print(even_nums)

@@ -1,3 +1,4 @@
+# condition statement keywords: if, else, elif
 
 # Syntax:
 condition = True
@@ -7,6 +8,13 @@ if condition:
 else:
     print("if condition fails then else block get's executed")
 
+
+if condition:
+    print('if block')
+elif condition:
+    print('elif block')
+else:
+    print('else block')
 
 
 # Conditional statements
