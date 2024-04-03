@@ -1,0 +1,135 @@
+
+what is python?
+--------------
+
+python is a general, mutli-purpose, object oriented, high level programming language.
+
+desktop, web, scripting, game, iot, da, de, ml, ai, ds etc.
+
+case senstive, object oriented, functional programming, interpreted.
+
+
+datatypes:
+---------
+5 datatypes
+1. int 
+2. str
+3. float
+4. bool
+5. complex
+
+
+8_483_57_394
+
+
+Type conversions:
+----------------
+int(), float(), str(), bool(), complex()
+
+
+
+Generic functions:
+-----------------
+type() --> to check the datatype of a variable.
+print() --> it will the values on console or terminal
+input(prompt) ---> to get the user input
+isinstance(obj, class) --> to check the datatype is matching or not (isinstance(100, (int, float)))
+len() --> to check the length or count
+id() --> memory address
+
+
+
+
+Naming conventions:
+-------------------
+1. only allowed characters are alphabets(a-z,A-Z), numbers(0-9), special(_).
+2. it should't start with number (1st character should be a alphabet or _)
+3. can't any other special characters (even $ is't allowed)
+4. reserved words/keywords can't be used to declare a variable name.
+
+
+
+
+string:
+------
+single, double, triple
+
+
+methods:
+-------
+
+cases:
+-----
+lower() 
+upper()
+swapcase()
+capitalize()
+
+
+boolean:
+------
+isalpha()
+isalnum()
+isspace()
+isupper()
+islower()
+istitle()
+
+numbers: in all these cases a string should have all are numbers
+-------
+isdigit() --> superscripts and subscripts
+isdecimal() --> 0-9
+isnumeric() --> any number system, as long it is system it will evalute to True (in a string -2,9.0, erio these cases it will False)
+
+
+replace()
+join()
+
+space removal:
+-------------
+strip()
+lstrip()
+rstrip()
+
+zfill()
+
+
+operators:
+---------
+# 1. Arithemtic operator: +, -, *, /, //, %
+# 2. comparision operator: ==, <, >, <=, >=, !=
+# 3. assignment operator: +=, -=, *=
+# 4. membership operator: in, not in
+# 5. identity operator: is, is not
+
+
+
+datastructures:
+--------------
+list, tuple, set, frozenset, dict
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
