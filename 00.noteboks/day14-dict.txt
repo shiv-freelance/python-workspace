@@ -1,0 +1,28 @@
+datastructures:
+-------------
+5 - list, tuple, set, frozenset, dict(key, value) pair
+
+1. create a dict -- {}, dict()
+2. d1 = {}
+   d1['name'] = 'Sri Ram'
+
+   print(d1)
+3. d1['name'] ==> 'Sri Ram' --> if key doesn't exist you will get key error
+   d1.get('name') ==> 'Sri Ram' --> eventhough key doesn't key it will return the default value
+
+   d1.get('name', None)
+   d1.get('name', 'Bharat')
+
+4. if key already exist, old value will be replaced with a new value.
+   id key doesn't exist, just a new pair.
+
+methods:
+-------
+1. get() -- 
+2. keys() --> all the keys of your dict
+3. values() --> all the values
+4. items() --> (key, value)
+5. update() --> add another dict
+6. clear() --> to clear all the keys and values.
+7. pop(key) --> if key exist, remove it and if key doesn't exist will raise keyError
+8. popitem() --> this will remove key,value 
