@@ -1,0 +1,43 @@
+abstraction
+-----------
+hiding the implementation
+
+
+make a abstract method and abstract class 
+
+
+from abc import ABC
+class A(ABC): # A class became abstract class
+    pass
+
+
+i don't have abstract methods, so i can do object intialization
+
+a = A() # will work
+
+
+class A(ABC):
+  @abstractmethod
+  def a_test(self):
+    pass
+
+a = A() # will not work, you have an abstract method so i will not allow.
+
+
+class A(ABC):
+  @staticmethod
+  def a_static():
+    print("a static method")
+  
+  @classmethod
+  def a_class(cls):
+    print('class method')
+  
+  @abstractmethod
+  def a_abstract(slef):
+    pass
+
+if a class having static, class methods still you can access them in regular way (using class name)
+
+A.a_static()
+A.a_class()
