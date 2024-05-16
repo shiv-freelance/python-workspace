@@ -1,0 +1,1 @@
+once you close a file and try read it (Unsupported Operation: performing read on a closed file

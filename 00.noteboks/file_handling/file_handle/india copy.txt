@@ -1,0 +1,14 @@
+India has highest population
+Capital is Delhi
+many cultures
+states has regional languages
+and
+rivers
+
+
+text_file1.txt
+pdf_file1.pdf
+excel_file1.xls
+text_file2.txt
+image_file.jpg
+pdf_file2.pdf

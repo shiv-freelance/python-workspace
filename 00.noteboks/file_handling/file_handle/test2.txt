@@ -1,0 +1,2 @@
+
+in this batch will discuss python, pytest, pandas, db
